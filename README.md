@@ -1,2 +1,3 @@
-# SP200A-Client
-SP200A SonarPhone master client running on ESP32 
+SP200A SonarPhone master client running on ESP32 microcontroller.
+
+This is a stand-alone ESP32 microcontroller with wifi interface to acquire depth data from a SonarPhone SP200A as a single or second master, not as a slave. The SonarPhone app can also run at the same time but is not required. This project does not interfere with any of the original SonarPhone app functionality. Depth is displayed on an LCD 7-segment display similar to a Signet Marine sonar display for numerical depth only. The hardware is enclosed in the salvaged Signet Marine case from the failed unit originally installed on my boat, so it looks and functions like the original.  Numerical depth is sent periodically on a SeaTalk output for the Raymarine C70 chart plotter.
